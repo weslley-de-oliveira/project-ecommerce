@@ -1,0 +1,80 @@
+{
+
+    "clientes": [
+
+    ],
+    "produtos": [
+        {
+            "id":1,
+            "nome": "Processador Intel Core i5-10400, Cache 12MB, 2.9GHz (4.3GHz Max Turbo), LGA 1200",
+            "descricao": "Processador Intel Core i5-10400, Cache 12MB, 2.9GHz (4.3GHz Max Turbo), LGA 1200",
+            "preco": 889.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/112990/processador-intel-core-i5-10400-cache-12mb-2-9ghz-lga-1200-bx8070110400_1589200167_gg.jpg"
+        },{
+            "id":2,
+            "nome": "Placa de Vídeo Zotac NVIDIA GeForce RTX 3060 Ti Twin Edge LHR, 8GB, 14.0 Gbps, GDDR6, DLSS, Ray Tracing - ZT-A30610E-10MLHR",
+            "descricao": "Placa de Vídeo Zotac NVIDIA GeForce RTX 3060 Ti Twin Edge LHR, 8GB, 14.0 Gbps, GDDR6, DLSS, Ray Tracing - ZT-A30610E-10MLHR",
+            "preco": 4599.90,
+            "img":"https://images.kabum.com.br/produtos/fotos/166104/placa-de-video-zotac-nvidia-geforce-rtx-3060ti-twin-edge-lhr-8gb-14-0-gbps-gddr6-dlss-ray-tracing-zt-a30610e-10mlhr_1623326525_gg.jpg"
+        },{
+            "id":3,
+            "nome": "Placa-Mãe ASRock B450M Steel Legend, AMD AM4, mATX, DDR4 - 90-MXB9Y0-A0BAYZ",
+            "descricao": "Placa-Mãe ASRock B450M Steel Legend, AMD AM4, mATX, DDR4 - 90-MXB9Y0-A0BAYZ",
+            "preco": 719.90,
+            "img":"https://images.kabum.com.br/produtos/fotos/100672/placa-mae-asrock-b450m-steel-legend-amd-am4-matx-ddr4-90-mxb9y0-a0uayz_placa-mae-asrock-b450m-steel-legend-amd-am4-matx-ddr4-90-mxb9y0-a0uayz_1552586908_gg.jpg"
+        },{
+            "id":4,
+            "nome": "PC Gamer OnGaming Powered By Asus Intel Core i7-12700K, 32GB, Geforce RTX 3080 Ti ASUS TUF Gaming 12GB, SSD M.2 1.0 TB",
+            "descricao": "PC Gamer OnGaming Powered By Asus Intel Core i7-12700K, 32GB, Geforce RTX 3080 Ti ASUS TUF Gaming 12GB, SSD M.2 1.0 TB",
+            "preco": 28199.90,
+            "img":"https://images.kabum.com.br/produtos/fotos/339225/pc-gamer-ongaming-powered-by-asus-intel-core-i7-12700k-32gb-geforce-rtx-3080-ti-asus-tuf-gaming-12gb-ssd-m-2-1-0-tb-ong127k308t21_1652800413_gg.jpg"
+        },{
+            "id":5,
+            "nome": "PC Gamer Skul 3000 I3-10100F, Radeon RX 550, 8GB DDR4, SSD 240GB, 500W PFC ATIVO, Linux",
+            "descricao": "PC Gamer Skul 3000 I3-10100F, Radeon RX 550, 8GB DDR4, SSD 240GB, 500W PFC ATIVO, Linux",
+            "preco": 3339.90,
+            "img":"https://images.kabum.com.br/produtos/fotos/309501/pc-gamer-skul-3000-intel-quad-core-i3-10100f-rgb-amd-radeon-rx-550-8gb-ddr4-ssd-240gb-linux-preto-g4704-120630_1644605124_gg.jpg"
+        },{
+            "id":6,
+            "nome": "Memória Crucial Ballistix, 8GB, 2666MHz, DDR4, CL16, Branca - BL8G26C16U4W",
+            "descricao": "Memória Crucial Ballistix, 8GB, 2666MHz, DDR4, CL16, Branca - BL8G26C16U4W",
+            "preco": 269.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/176681/memoria-ram-gamer-crucial-ballistix-8gb-2666mhz-ddr4-cl16-amd-intel-branca-bl8g26c16u4w_1625679824_gg.jpg"
+        },{
+            "id":7,
+            "nome": "SSD Kingston A400, 960GB, SATA, Leitura 500MB/s, Gravação 450MB/s - SA400S37/960G",
+            "descricao": "SSD Kingston A400, 960GB, SATA, Leitura 500MB/s, Gravação 450MB/s - SA400S37/960G",
+            "preco": 649.90
+        },{
+            "id":8,
+            "nome": "Fonte XPG Core Reactor, 850W, ATX, 80 Plus Gold Modular",
+            "descricao": "Fonte XPG Core Reactor, 850W, ATX, 80 Plus Gold Modular",
+            "preco": 679.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/103282/fonte-xpg-core-reactor-850w-80-plus-gold-modular_fonte-xpg-core-reactor-850w-80-plus-gold-modular_1571154124_gg.jpg"
+        },{
+            "id":9,
+            "nome": "Pasta Térmica Rise Silver Frost 5G Cinza - LMS-TG700",
+            "descricao": "Pasta Térmica Rise Silver Frost 5G Cinza - LMS-TG700",
+            "preco": 8.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/96815/pasta-termica-rise-silver-frost-5g-cinza-rm-tg-01-frt_1606335867_gg.jpg"
+        },{
+            "id":10,
+            "nome": "HD Seagate BarraCuda, 2TB, 3.5´, SATA - ST2000DM008",
+            "descricao": "HD Seagate BarraCuda, 2TB, 3.5´, SATA - ST2000DM008",
+            "preco": 578.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/100916/100916_1552934430_index_gg.jpg"
+        },{
+            "id":11,
+            "nome": "SSD Kingston NV1 500GB, M.2 2280 NVMe, Leitura: 2100MB/s e Gravação: 1700MB/s - SNVS/500G",
+            "descricao": "SSD Kingston NV1 500GB, M.2 2280 NVMe, Leitura: 2100MB/s e Gravação: 1700MB/s - SNVS/500G",
+            "preco": 379.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/155408/ssd-kingston-500gb-nv1-m-2-2280-nvme-leitura-2100mb-s-e-gravacao-1700mb-s-snvs-500g_1619533362_gg.jpg"
+        },{
+            "id":12,
+            "nome": "Cooler FAN XPG, 120mm - VENTO120-BKCWW",
+            "descricao": "Cooler FAN XPG, 120mm - VENTO120-BKCWW",
+            "preco": 25.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/121365/cooler-fan-xpg-120mm-vento120-bkcww_1598974159_gg.jpg"
+        }
+    ]
+}
