@@ -44,7 +44,8 @@
             "id":7,
             "name": "SSD Kingston A400, 960GB, SATA, Leitura 500MB/s, Gravação 450MB/s - SA400S37/960G",
             "description": "SSD Kingston A400, 960GB, SATA, Leitura 500MB/s, Gravação 450MB/s - SA400S37/960G",
-            "price": 649.90
+            "price": 649.90,
+            "img": "https://images.kabum.com.br/produtos/fotos/95217/95217_1520016948_index_gg.jpg"
         },{
             "id":8,
             "name": "Fonte XPG Core Reactor, 850W, ATX, 80 Plus Gold Modular",
