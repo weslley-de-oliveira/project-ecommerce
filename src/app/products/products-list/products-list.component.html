@@ -10,12 +10,13 @@
     <div class="container-fluid">
         <div class="grid">
             <div class="row">
-                <div *ngFor="let product of products" class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                <div *ngFor="let product of products" class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
                     <div class="card">
                         <img class="card-img-top" [src]="product?.img" alt="Card image cap">
                         <div class="card-body">
                           <h5 class="card-title">{{product?.name}}</h5>
                           <p class="card-text">{{product?.price | currency:'BRL'}}</p>
+                          <p class="card-text">Estoque: {{product?.inventory}}</p>
                           <button type="button" class="btn btn-outline-dark" (click)="addToCart(product)"><b>Adicionar ao carrinho</b></button>
                           <button type="button" class="btn btn-outline-dark" [routerLink]="'/product-details'"><b>Detalhes</b></button>
                         </div>

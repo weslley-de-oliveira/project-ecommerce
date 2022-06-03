@@ -1,0 +1,12 @@
+.card-title {
+    overflow: hidden; /* remove o estouro do elemento */
+    text-overflow: ellipsis; /* adiciona “...” no final */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* quantidade de linhas */
+    -webkit-box-orient: vertical; /* conteúdo será apresentado verticalmente */
+}
+
+.card-title:hover {
+    overflow: visible;
+    display: block;
+}
