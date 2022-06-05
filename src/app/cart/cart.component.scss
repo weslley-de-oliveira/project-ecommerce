@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    width: 100vw;
+
+    .container-fluid {
+
+        .grid-striped{
+    
+            .row-product {
+                height: 5rem;
+                width: 100%;
+                padding: 0.2rem;
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+    
+                .product-img {
+    
+                    img {
+                        height: 4rem;
+                        width: 4rem;
+                    }
+                }
+    
+                .product-name {
+                    overflow: hidden; /* remove o estouro do elemento */
+                    text-overflow: ellipsis; /* adiciona “...” no final */
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2; /* quantidade de linhas */
+                    -webkit-box-orient: vertical; /* conteúdo será apresentado verticalmente */
+                }
+    
+                .product-quantity {
+                    padding: 0 4rem;
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+    
+            .row-product:nth-of-type(odd) {
+                background-color: rgba(0,0,0,.05);
+            }
+        }
+    }
+
+    svg {
+        cursor: pointer;
+    }
+    
+}
+
