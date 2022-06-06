@@ -1,1 +1,44 @@
-<p>login works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="grid">
+            <div class="row">
+                <div class="col login">
+                    <h1>
+                        Login
+                    </h1>
+                    <form>
+                        <div class="form-group">
+                          <label for="email">E-MAIL</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="usuario.usuario@email.com">
+                        </div>
+                        <div class="form-group">
+                          <label for="password">SENHA</label>
+                          <input type="password" class="form-control" id="password" placeholder="Senha">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Logar</button>
+                      </form>
+                </div>
+                <div class="col register">
+                    <h1>
+                        <b>
+                            Bem vindo à área de login
+                        </b>
+                    </h1>
+                    <p>
+                        Ainda não possui conta?
+                    </p>
+                    <button type="button" type="submit" class="btn btn-outline-primary" [routerLink]="'/register'">Cadastre-se</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

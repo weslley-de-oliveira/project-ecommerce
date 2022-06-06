@@ -17,7 +17,7 @@
                     <span>{{product?.name}}</span>
                 </div>
                 <div class="col product-initial-price d-flex justify-content-center">
-                    <span>{{product?.price | currency:'BRL'}}</span>
+                    <span>Preço: {{product?.price | currency:'BRL'}}</span>
                 </div>
                 <div class="col product-quantity">
                     <div class="subtract d-flex justify-content-center">
@@ -27,7 +27,9 @@
                           </svg>
                     </div>
                     <div class="qtd d-flex justify-content-center">
-                        {{product?.quantity}}
+                        <span>
+                            {{product?.quantity}}
+                        </span>
                     </div>
                     <div class="add d-flex justify-content-center">
                         <svg (click)="addQtd(product)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
@@ -36,7 +38,7 @@
                     </div>
                 </div>
                 <div class="col product-total-price d-flex justify-content-center">
-                    <span>{{product.total | currency: 'BRL'}}</span>
+                    <span>Total: {{product.total | currency: 'BRL'}}</span>
                 </div>
                 <div class="remove d-flex justify-content-center">
                     <svg (click)="removeItemOfCart(product)" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
@@ -46,7 +48,9 @@
             </div>
             <div class="row">
                 <div class="col">
-                    Total: {{totalCart | currency: 'BRL'}}
+                   <span>
+                        Total: {{totalCart | currency: 'BRL'}}
+                   </span>
                 </div>
             </div>
         </div>
