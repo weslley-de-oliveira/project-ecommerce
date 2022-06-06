@@ -11,5 +11,9 @@ export class RoutesService {
   //Produtos
   products = 'products'
 
+  //CLientes
+  register = 'users/register'
+  login = 'users/login'
+
   constructor() { }
 }
