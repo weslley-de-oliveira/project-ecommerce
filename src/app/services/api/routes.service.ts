@@ -13,7 +13,7 @@ export class RoutesService {
 
   //CLientes
   register = 'users/register'
-  login = 'users/login'
+  login = 'login'
 
   constructor() { }
 }
