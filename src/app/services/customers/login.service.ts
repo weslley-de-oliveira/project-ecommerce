@@ -21,8 +21,11 @@ export class LoginService {
         this.storageService.set('token', response.accessToken);
         window.history.back();
        }  
-    }, (error: HttpErrorResponse) => {
-      alert(`${error.error}`);
-    })
+    });
+  }
+
+  getAuthorizationToken() {
+    const token = this.storageService.get('token');
+    return token;
   }
 }
